@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+     <meta charset="UTF-8>
+     <meta name="veiewport" content="width=device-width,initial-scal"
+     <title>Dynamic Resume Builder</title>
+     <link rel="stylesheet" href="style.ts">
+    </head>
+    <body>
+        <h1>Dynamic Resume Builder</h1>
+        <form id="Resume-form">
+            <fieldset>
+               <legend>Personal Information</legend> 
+               <label for="name">name:</label>
+               <input type="text" id="name" placeholder="Enter your name"required>
+
+               <label for="email">email:</label>
+               <input type="email" id="email" placeholder="Enter your email"required>
+
+               <label for="phone">phone:</label>
+               <input type="tell" id="phone" placeholder="Enter your phone number"required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Education</legend>
+                <label for="education">Education:</label>
+                <textarea id="education placeholder="Enter your education" rows"4" required></textarea>
+            </fieldset>
+
+
+            <fieldset>
+               <legend>Experience</legend> 
+               <label for="experience">Experience:</label>
+               <textarea id="experience placeholder="Enter your work experience" rows"4" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>skills</legend> 
+                <label for="skills">skills:</label>
+                <textarea id="skills placeholder="Enter your skills" rows"4" required></textarea>
+             </fieldset>
+
+             <button type="submit"><b></b>Generate Resume</button>
+        </form>
+        <br>
+        <!-- Dynamic Resume -->
+         <div id="resume-display">
+            <!-- resume will be genreted below -->
+         </div>
+         <script src="sript.js"></script>
+    </body>
+</html>
